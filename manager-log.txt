@@ -1,0 +1,9 @@
+~/work$ sudo tcpdump port tftp -n
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+
+17:07:27.096508 IP 192.168.66.2.1828 > 255.255.255.255.69:  25 RRQ "nasystem/who_is3" octet
+17:07:27.110999 IP 192.168.66.2.1828 > 255.255.255.255.69:  24 RRQ "nasystem/who_is" octet
+17:07:32.633291 IP 192.168.66.2.1832 > 255.255.255.255.69:  25 RRQ "nasystem/who_is3" octet
+17:07:32.642350 IP 192.168.66.2.1832 > 255.255.255.255.69:  24 RRQ "nasystem/who_is" octet
+
